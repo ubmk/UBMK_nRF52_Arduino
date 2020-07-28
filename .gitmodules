@@ -4,3 +4,12 @@
 [submodule "libraries/Adafruit_nRFCrypto"]
 	path = libraries/Adafruit_nRFCrypto
 	url = https://github.com/adafruit/Adafruit_nRFCrypto.git
+[submodule "libraries/USB_Host_Shield_2.0"]
+	path = libraries/USB_Host_Shield_2.0
+	url = git@github.com:ubmk/USB_Host_Shield_2.0.git
+[submodule "libraries/Adafruit_TinyUSB_Arduino"]
+	path = libraries/Adafruit_TinyUSB_Arduino
+	url = https://github.com/adafruit/Adafruit_TinyUSB_Arduino.git
+[submodule "libraries/ArduinoJson"]
+	path = libraries/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson.git
