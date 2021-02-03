@@ -43,7 +43,8 @@ const uint32_t g_ADigitalPinMap[] =
    9, // 15 - P0.09 (NFC1)
   10, // 16 - P0.10 (NRF2)
   46, // 17 - P1.14 (BTN)
-  47 //  18 - P1.15 (BTN)
+  47, // 18 - P1.15 (BTN)
+  15  // 19 - P0.15 (M_SS)
 };
 
 void initVariant()

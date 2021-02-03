@@ -77,7 +77,7 @@ extern "C"
 #define PIN_SPI_MOSI         (3)
 #define PIN_SPI_SCK          (2)
 
-static const uint8_t SS   = (12);
+static const uint8_t SS   = (19);
 static const uint8_t MOSI = PIN_SPI_MOSI ;
 static const uint8_t MISO = PIN_SPI_MISO ;
 static const uint8_t SCK  = PIN_SPI_SCK ;

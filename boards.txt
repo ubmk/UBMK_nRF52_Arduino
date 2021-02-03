@@ -133,110 +133,110 @@ ubmk60.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
 # ---------------------------------------------
 # UBMK65 Keyboard V1.1
 # ---------------------------------------------
-ubmk65.name=UBMK65 Keyboard V1.1
+ubmk65_v1_1.name=UBMK65 Keyboard V1.1
 
 # VID/PID for bootloader with/without UF2, Arduino + Circuitpython App
-ubmk65.vid.0=0x5559
-ubmk65.pid.0=0x0012
-ubmk65.vid.1=0x5559
-ubmk65.pid.1=0x0012
-ubmk65.vid.2=0x5559
-ubmk65.pid.2=0x0013
-ubmk65.vid.3=0x5559
-ubmk65.pid.3=0x0013
+ubmk65_v1_1.vid.0=0x5559
+ubmk65_v1_1.pid.0=0x0012
+ubmk65_v1_1.vid.1=0x5559
+ubmk65_v1_1.pid.1=0x0012
+ubmk65_v1_1.vid.2=0x5559
+ubmk65_v1_1.pid.2=0x0013
+ubmk65_v1_1.vid.3=0x5559
+ubmk65_v1_1.pid.3=0x0013
 
 # Upload
-ubmk65.bootloader.tool=bootburn
-ubmk65.upload.tool=nrfutil
-ubmk65.upload.protocol=nrfutil
-ubmk65.upload.use_1200bps_touch=true
-ubmk65.upload.wait_for_upload_port=true
-ubmk65.upload.maximum_size=815104
-ubmk65.upload.maximum_data_size=237568
+ubmk65_v1_1.bootloader.tool=bootburn
+ubmk65_v1_1.upload.tool=nrfutil
+ubmk65_v1_1.upload.protocol=nrfutil
+ubmk65_v1_1.upload.use_1200bps_touch=true
+ubmk65_v1_1.upload.wait_for_upload_port=true
+ubmk65_v1_1.upload.maximum_size=815104
+ubmk65_v1_1.upload.maximum_data_size=237568
 
 # Build
-ubmk65.build.mcu=cortex-m4
-ubmk65.build.f_cpu=64000000
-ubmk65.build.board=UBMK65_V1_1
-ubmk65.build.core=nRF5
-ubmk65.build.variant=ubmk65
-ubmk65.build.usb_manufacturer="Uy Bui"
-ubmk65.build.usb_product="UBMK65_V1_1"
-ubmk65.build.extra_flags=-DNRF52840_XXAA -DUBMK -DUBMK65 -DUBMK65_V1_1 {build.flags.usb}
-ubmk65.build.ldscript=nrf52840_s140_v6.ld
-ubmk65.build.vid=0x5559
-ubmk65.build.pid=0x0012
+ubmk65_v1_1.build.mcu=cortex-m4
+ubmk65_v1_1.build.f_cpu=64000000
+ubmk65_v1_1.build.board=UBMK65_V1_1
+ubmk65_v1_1.build.core=nRF5
+ubmk65_v1_1.build.variant=ubmk65_v1_1
+ubmk65_v1_1.build.usb_manufacturer="Uy Bui"
+ubmk65_v1_1.build.usb_product="UBMK65_V1_1"
+ubmk65_v1_1.build.extra_flags=-DNRF52840_XXAA -DUBMK -DUBMK65 -DUBMK65_V1_1 {build.flags.usb}
+ubmk65_v1_1.build.ldscript=nrf52840_s140_v6.ld
+ubmk65_v1_1.build.vid=0x5559
+ubmk65_v1_1.build.pid=0x0012
 
 # SofDevice Menu
-ubmk65.menu.softdevice.s140v6=0.2.11 SoftDevice s140 6.1.1
-ubmk65.menu.softdevice.s140v6.build.sd_name=s140
-ubmk65.menu.softdevice.s140v6.build.sd_version=6.1.1
-ubmk65.menu.softdevice.s140v6.build.sd_fwid=0x00B6
+ubmk65_v1_1.menu.softdevice.s140v6=0.2.11 SoftDevice s140 6.1.1
+ubmk65_v1_1.menu.softdevice.s140v6.build.sd_name=s140
+ubmk65_v1_1.menu.softdevice.s140v6.build.sd_version=6.1.1
+ubmk65_v1_1.menu.softdevice.s140v6.build.sd_fwid=0x00B6
 
 # Debug Menu
-ubmk65.menu.debug.l0=Level 0 (Release)
-ubmk65.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
-ubmk65.menu.debug.l1=Level 1 (Error Message)
-ubmk65.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
-ubmk65.menu.debug.l2=Level 2 (Full Debug)
-ubmk65.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
-ubmk65.menu.debug.l3=Level 3 (Segger SystemView)
-ubmk65.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
-ubmk65.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
+ubmk65_v1_1.menu.debug.l0=Level 0 (Release)
+ubmk65_v1_1.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
+ubmk65_v1_1.menu.debug.l1=Level 1 (Error Message)
+ubmk65_v1_1.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
+ubmk65_v1_1.menu.debug.l2=Level 2 (Full Debug)
+ubmk65_v1_1.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
+ubmk65_v1_1.menu.debug.l3=Level 3 (Segger SystemView)
+ubmk65_v1_1.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
+ubmk65_v1_1.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
 
 # ---------------------------------------------
 # UBMK65 Keyboard V1.1F
 # ---------------------------------------------
-ubmk65.name=UBMK65 Keyboard V1.1F
+ubmk65_v1_1f.name=UBMK65 Keyboard V1.1F
 
 # VID/PID for bootloader with/without UF2, Arduino + Circuitpython App
-ubmk65.vid.0=0x5559
-ubmk65.pid.0=0x0020
-ubmk65.vid.1=0x5559
-ubmk65.pid.1=0x0020
-ubmk65.vid.2=0x5559
-ubmk65.pid.2=0x0021
-ubmk65.vid.3=0x5559
-ubmk65.pid.3=0x0021
+ubmk65_v1_1f.vid.0=0x5559
+ubmk65_v1_1f.pid.0=0x0020
+ubmk65_v1_1f.vid.1=0x5559
+ubmk65_v1_1f.pid.1=0x0020
+ubmk65_v1_1f.vid.2=0x5559
+ubmk65_v1_1f.pid.2=0x0021
+ubmk65_v1_1f.vid.3=0x5559
+ubmk65_v1_1f.pid.3=0x0021
 
 # Upload
-ubmk65.bootloader.tool=bootburn
-ubmk65.upload.tool=nrfutil
-ubmk65.upload.protocol=nrfutil
-ubmk65.upload.use_1200bps_touch=true
-ubmk65.upload.wait_for_upload_port=true
-ubmk65.upload.maximum_size=815104
-ubmk65.upload.maximum_data_size=237568
+ubmk65_v1_1f.bootloader.tool=bootburn
+ubmk65_v1_1f.upload.tool=nrfutil
+ubmk65_v1_1f.upload.protocol=nrfutil
+ubmk65_v1_1f.upload.use_1200bps_touch=true
+ubmk65_v1_1f.upload.wait_for_upload_port=true
+ubmk65_v1_1f.upload.maximum_size=815104
+ubmk65_v1_1f.upload.maximum_data_size=237568
 
 # Build
-ubmk65.build.mcu=cortex-m4
-ubmk65.build.f_cpu=64000000
-ubmk65.build.board=UBMK65_V1_1F
-ubmk65.build.core=nRF5
-ubmk65.build.variant=ubmk65
-ubmk65.build.usb_manufacturer="Uy Bui"
-ubmk65.build.usb_product="UBMK65_V1_1F"
-ubmk65.build.extra_flags=-DNRF52840_XXAA -DUBMK -DUBMK65 -DUBMK65_V1_1F {build.flags.usb}
-ubmk65.build.ldscript=nrf52840_s140_v6.ld
-ubmk65.build.vid=0x5559
-ubmk65.build.pid=0x0020
+ubmk65_v1_1f.build.mcu=cortex-m4
+ubmk65_v1_1f.build.f_cpu=64000000
+ubmk65_v1_1f.build.board=UBMK65_V1_1F
+ubmk65_v1_1f.build.core=nRF5
+ubmk65_v1_1f.build.variant=ubmk65_v1_1f
+ubmk65_v1_1f.build.usb_manufacturer="Uy Bui"
+ubmk65_v1_1f.build.usb_product="UBMK65_V1_1F"
+ubmk65_v1_1f.build.extra_flags=-DNRF52840_XXAA -DUBMK -DUBMK65 -DUBMK65_V1_1F {build.flags.usb}
+ubmk65_v1_1f.build.ldscript=nrf52840_s140_v6.ld
+ubmk65_v1_1f.build.vid=0x5559
+ubmk65_v1_1f.build.pid=0x0020
 
 # SofDevice Menu
-ubmk65.menu.softdevice.s140v6=0.2.11 SoftDevice s140 6.1.1
-ubmk65.menu.softdevice.s140v6.build.sd_name=s140
-ubmk65.menu.softdevice.s140v6.build.sd_version=6.1.1
-ubmk65.menu.softdevice.s140v6.build.sd_fwid=0x00B6
+ubmk65_v1_1f.menu.softdevice.s140v6=0.2.11 SoftDevice s140 6.1.1
+ubmk65_v1_1f.menu.softdevice.s140v6.build.sd_name=s140
+ubmk65_v1_1f.menu.softdevice.s140v6.build.sd_version=6.1.1
+ubmk65_v1_1f.menu.softdevice.s140v6.build.sd_fwid=0x00B6
 
 # Debug Menu
-ubmk65.menu.debug.l0=Level 0 (Release)
-ubmk65.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
-ubmk65.menu.debug.l1=Level 1 (Error Message)
-ubmk65.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
-ubmk65.menu.debug.l2=Level 2 (Full Debug)
-ubmk65.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
-ubmk65.menu.debug.l3=Level 3 (Segger SystemView)
-ubmk65.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
-ubmk65.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
+ubmk65_v1_1f.menu.debug.l0=Level 0 (Release)
+ubmk65_v1_1f.menu.debug.l0.build.debug_flags=-DCFG_DEBUG=0
+ubmk65_v1_1f.menu.debug.l1=Level 1 (Error Message)
+ubmk65_v1_1f.menu.debug.l1.build.debug_flags=-DCFG_DEBUG=1
+ubmk65_v1_1f.menu.debug.l2=Level 2 (Full Debug)
+ubmk65_v1_1f.menu.debug.l2.build.debug_flags=-DCFG_DEBUG=2
+ubmk65_v1_1f.menu.debug.l3=Level 3 (Segger SystemView)
+ubmk65_v1_1f.menu.debug.l3.build.debug_flags=-DCFG_DEBUG=3
+ubmk65_v1_1f.menu.debug.l3.build.sysview_flags=-DCFG_SYSVIEW=1
 
 # ---------------------------------------------
 # UBMK USB2BLE Adapter V3 LITE
